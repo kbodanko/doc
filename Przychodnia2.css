@@ -10,6 +10,9 @@ header{
 *{
     scroll-margin-top: 6.2rem
 }
+#menu_option5{
+    scroll-margin-top: 7.3rem;
+}
 #mobile_menu{
     position: fixed;
     z-index: 10;
