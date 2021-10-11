@@ -3,7 +3,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 header{
-    background-image: url(img/background.jpg);
+    background-image: url(img/long_bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -178,7 +178,7 @@ button{
     visibility: hidden;
     width: max-content;
     align-items: center;
-    margin-top: 16rem;
+    margin-top: 10rem;
 }
 .buttons_wraper{
     display: flex;
@@ -188,6 +188,7 @@ button{
     padding: .2rem;
     cursor: pointer;
     border-radius: 9px;
+    box-shadow: -2px 2px 12px -3px gray;
 }
 .buttons_wraper img{
     height: 22px;
@@ -342,11 +343,11 @@ width: 100%;
 #menu_option5{
     margin-top: -.5rem;
     overflow: hidden;
-    background-image: url(img/334700.jpg);
+    background-image: url(img/medical_background.jpg);
     background-position: center;
     background-size: cover;
     background-size: cover;
-    filter: brightness(50%);
+    filter: brightness(20%);
     height: 36rem;
 }
 #content_bg{
@@ -482,7 +483,7 @@ width: 100%;
         shape-outside: circle(50.34% at 167px 177px);
     }
     #google_map{
-        width: 80%;
+        /* width: 80%; */
         height: 20rem;
     }
 }
@@ -492,15 +493,12 @@ width: 100%;
     }
 }
 @media(max-width:700px){
-    aside{
-        justify-content: start;
-    }
     #buttons{
         align-items: flex-start;   
         margin-left: .7rem; 
     }
     #menu_option0{
-        background-image: url(img/background4.jpg);
+        background-image: url(img/long_bg2.jpg);
     }
     .navbar_menu_option p{
         padding: 0 .2rem;
@@ -519,6 +517,7 @@ width: 100%;
     }
     #content_bg_wraper{
         margin-left: -5rem;
+        width: 100%;
     }
     .heigh{
         padding-bottom: 0;
@@ -547,9 +546,7 @@ width: 100%;
     } */
 }
 @media(max-width:600px){
-    #menu_option0{
-        background-position-y: -3rem;
-    }
+    
     #ham_menu{
         display: flex;
     }
@@ -595,8 +592,11 @@ width: 100%;
     .prompts{
         top: 10rem;
     }
+    #window3{
+        margin-top: -9rem;
+    }
     #buttons{
-        margin-top: 13rem;
+        margin-top: 9rem;
     }
     #google_map{
         width: 90%;
@@ -605,13 +605,16 @@ width: 100%;
         transform: scale(.8);
         right: 1rem;
     }
+    .contact_info_wraper{
+        width: 90%;
+    }
 }
 @media(max-width:500px){
     h1{
         font-size: 1.5rem;
     }
     #menu_option0{
-        background-image: url(img/background5.jpg);
+        background-image: url(img/long_bg2.jpg);
         background-position-y: 0;
     }
     #header_info{
@@ -625,10 +628,7 @@ width: 100%;
         height: 11px;
     }
     #buttons{
-        margin-top: 10rem;
-    }
-    .buttons_options{
-        font-size: .9rem;
+        margin-top: 8rem;
     }
     #medical_icons img{
         height: 24px;
@@ -636,7 +636,7 @@ width: 100%;
     #content_wraper{
         margin: 2rem .5rem 0 .5rem;
     }
-    #content_bg_wraper {
+    #content_bg_wraper{
         width: 60%;
     }
     #nurse {
@@ -644,8 +644,9 @@ width: 100%;
         shape-outside: circle(44.86% at 79px 96px);
     }
     #lab{
-        width: 8REM;
+        width: 8rem;
         shape-outside: circle(62.97% at 92px 75px);
         margin: 0.5rem 0 0 1rem;
     }
+    
 }
