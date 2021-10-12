@@ -186,6 +186,7 @@ function hideShowUpArrow() {
 }
 
 function scrollToTop() {
+    console.log('up');
     rootElement.scrollTo({
         top: 0,
         behavior: "smooth"
