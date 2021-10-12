@@ -27,15 +27,15 @@ function expandCollapse() {
         // menu_option0.filter = 'brightness(100%)';
         // document.querySelector('#menu_option1').filter = 'brightness(100%)';
         // content_fields[i].style.filter = 'brightness(100%)';
-        // document.querySelector('#menu_option5').filter = 'brightness(50%)';
+        // document.querySelector('#menu_option5').filter = 'brightness(20%)';
         for (let i = 0; i < content_fields.length; i++) {
             // document.querySelector('#menu_option0').filter = 'brightness(100%)';
             // document.querySelector('#menu_option1').filter = 'brightness(100%)';
             content_fields[i].style.filter = 'brightness(100%)';
-            content_fields[3].style.filter = 'brightness(50%)';
+            content_fields[3].style.filter = 'brightness(20%)';
             document.querySelector('#content_bg').style.filter = 'brightness(100%)';
 
-            // document.querySelector('#menu_option5').filter = 'brightness(50%)';
+            // document.querySelector('#menu_option5').filter = 'brightness(20%)';
             // document.querySelector('#content_bg').style.filter = 'brightness(100%)';
             console.log('drk', content_fields[i].style.filter);
         }
