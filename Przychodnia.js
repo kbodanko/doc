@@ -97,7 +97,7 @@ showMobileMenu();
 // });
 
 fillMenu();
-document.querySelector('#menu_option5').style.filter = 'brightness(50%)';
+// document.querySelector('#menu_option5').style.filter = 'brightness(50%)';
 document.querySelector('#content_bg').style.filter = 'brightness(100%)';
 // window.addEventListener('click', function(){
 //     if(event.target!==mobileMenu)
