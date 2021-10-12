@@ -124,6 +124,7 @@ aside{
 }
 .prompts{
     position: absolute;
+    z-index: 15;
     top: 15rem;
     display: flex;
     justify-content: center;
