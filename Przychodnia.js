@@ -150,7 +150,7 @@ function closeWindow() {
 
     for (let i = 0; i < content_fields.length; i++) {
         content_fields[i].style.filter = 'brightness(100%)';
-        document.querySelector('#menu_option5').style.filter = 'brightness(50%)';
+        document.querySelector('#menu_option5').style.filter = 'brightness(20%)';
         document.querySelector('#content_bg').style.filter = 'brightness(100%)';
 
         // content_fields[i].style.filter = 'blur(0)';
